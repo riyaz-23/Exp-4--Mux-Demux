@@ -16,7 +16,7 @@ Boolean Functions
 
 ## Design / RTL Program
 
-```// gedit mux_demux.v
+// gedit mux_demux.v
 module mux2to1 (
     input  wire A,      // input line 0
     input  wire B,      // input line 1
@@ -146,7 +146,7 @@ The 2:1 Multiplexer and 1:2 Demultiplexer were realized using Verilog HDL:
 
 The design was compiled and simulated using Synopsys VCS, and the functionality was verified using DVE waveform analysis, matching the expected truth table.
 
-## Output
+ Output
 <img width="1600" height="898" alt="Output_4" src="https://github.com/user-attachments/assets/696f56e5-9f44-4d8a-b829-c32fdc98203f" />
 
 
