@@ -15,7 +15,7 @@ Boolean Functions
 <img width="575" height="65" alt="image" src="https://github.com/user-attachments/assets/04c2d90c-0b6b-4b35-b603-d0e10e1e4f00" />
 
 ## Design / RTL Program
-
+```
 // gedit mux_demux.v
 module mux2to1 (
     input  wire A,      // input line 0
@@ -35,7 +35,10 @@ module demux1to2 (
     assign Y0 = (~S) & D;
     assign Y1 = S & D;
 endmodule
+
+```
 ## **Testbench Program
+```
 // gedit tb4.v
 module tb4;
     reg  A, B, S, D;
@@ -83,7 +86,7 @@ module tb4;
     end
 endmodule
 
-
+```
 ## Truth Table
 
 ### 2:1 Multiplexer
